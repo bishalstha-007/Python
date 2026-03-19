@@ -28,3 +28,7 @@ print( "Odd numbers between 1 to 8:" ,odd)
 students = [("Bishal", 25), ("Charles", 22), ("Lina", 28),("Tina", 32), ("Amisha", 21), ("Bhumi",23)]
 sorted_student = sorted(students, key=lambda x: x[1]) 
 print(sorted_student)
+
+words = ["apple", "pie", "banana", "cherry"]
+sorted_words = sorted(words, key= lambda x: len(x))
+print(sorted_words)
