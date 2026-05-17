@@ -1,11 +1,14 @@
-# provides a concise way to create lists.
-# short and concise
+countries_capitals = {
+    "Nepal": "Kathmandu",
+    "Australia": "Canberra",
+    "Japan": "Tokyo",
+    "Brazil": "Brasília",
+    "Egypt": "Cairo"
+}
 
-# creating list of square from 1 to 5
-squares = [i**2 for i in range(10)]
-print(squares)
+# print(countries_capitals.get("Nepal"))
 
-# Only even squares
-
-even = [i**2 for i in range(1,11) if i%2 == 0]
-print(even)
+if countries_capitals.get("apple"):
+    print("Capital exists.")
+else:
+    print("Capital doesnot exists.")

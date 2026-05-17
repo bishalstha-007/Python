@@ -28,8 +28,14 @@ for question in questions:
     for option in options[que_num]:
         print(option) 
 
+    
     guess = input("Enter answer (A, B, C, D): ").upper()
-    guesses.append(guess)
+
+    if guess not in ("A", "B", "C", "D"):
+        print("Option doesnot exists.")
+        
+    else:
+        guesses.append(guess)
 
     if guess == answers[que_num]:
         score += 1
