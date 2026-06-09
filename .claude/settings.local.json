@@ -1,0 +1,11 @@
+{
+  "env": {
+    "ANTHROPIC_BASE_URL": "https://openrouter.ai/api",
+    "ANTHROPIC_AUTH_TOKEN": "env:OPENROUTER_API_KEY",
+    "ANTHROPIC_API_KEY": "",
+    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "minimax/minimax-2.5-free",
+    "ANTHROPIC_DEFAULT_OPUS_MODEL": "minimax/minimax-2.5-free",
+    "ANTHROPIC_DEFAULT_SONNET_MODEL": "minimax/minimax-2.5-free"
+  },
+  "model": "sonnet[1m]"
+}
