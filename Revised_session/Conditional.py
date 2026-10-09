@@ -36,5 +36,7 @@ elif(i==5):
     print("Thursday")
 elif(i==6):
     print("Friday")
-else:
+elif(i==7):
     print("Saturday")
+else:
+    print("Invalid value, Please try entering a number between 1-7")
