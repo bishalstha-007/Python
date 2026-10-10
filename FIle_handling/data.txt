@@ -1,0 +1,6 @@
+Hello, sir!! 
+How is the today's weather sir??
+Let's go for a short ride.
+Running today??
+	 for tab/space, 
+ for new/next line This is new data.
