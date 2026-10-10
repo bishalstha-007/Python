@@ -23,20 +23,20 @@
 # else :
 #     print("Fail")
 
-i = input("Enter the value (1-7):")
-if (i==1):
-    print("Sunday")
-elif(i==2):
-    print("Monday")
-elif(i==3):
-    print("Tuesday")
-elif(i==4):
-     print("Wednesday")
-elif(i==5):
-    print("Thursday")
-elif(i==6):
-    print("Friday")
-elif(i==7):
-    print("Saturday")
+# Program to print the days of week and check odd/even.
+
+# Taking input from user
+x = int(input("Enter the number between 1-7:"))
+
+# list of days
+days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thurday", "Friday", "Saturday"]
+
+if (1 <= x <= 7):
+    print("Days:", days[x-1]) 
+
+    if (x % 2 == 0):
+        print("This is even day.")
+    else:
+        print("This is odd day.")
 else:
-    print("Invalid value, Please try entering a number between 1-7")
+    print("Invalid input, please enter the number between 1 - 7")
