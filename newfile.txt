@@ -1,1 +1,5 @@
 bishal,98
+amit ,56
+Sumit,66
+Altap,77
+Divya shrestha,76

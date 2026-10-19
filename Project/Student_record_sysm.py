@@ -25,7 +25,7 @@ def main():
     while True:
         print("\n1. Add Student")
         print("2. View Students")
-        print("3.. Exit")
+        print("3. Exit")
         choice = input("Enter your choice:")
 
         if choice == "1":
