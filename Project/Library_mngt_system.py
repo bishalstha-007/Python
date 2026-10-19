@@ -9,9 +9,10 @@ def View_book():
     try:
         with open("file1.txt", "r") as f:
             print("\n ---Book Records--- ")
+            print("Name \t\t\t Author")
             for line in f:
                 name, author = line.strip().split(",")
-                print("Name \t\t\t Author")
+               
                 print(name, "\t\t", author)
 
     except FileNotFoundError:
@@ -19,7 +20,7 @@ def View_book():
 
 def main():
     while True :
-        print("7. To Add Books")
+        print("\n7. To Add Books")
         print("8. To View Books")
         print("9. Exit")
         choice = input("\nEnter your choice:")
