@@ -1,0 +1,2 @@
+Potato,25.0
+Mango,50.0

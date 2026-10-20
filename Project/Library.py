@@ -12,7 +12,7 @@ def view_books():
         with open("library.txt", "r") as f:
 
             books = f.readlines()            # Reads all the lines from a file and returns in list
-            if len (books) == 0:
+            if len (books) == 0:        
                 print("No books available.")
                 return
 
@@ -52,6 +52,7 @@ def search_book():
     except FileNotFoundError:
         print("Library is empty.")
 
+# Loop will end when user chooses Exit.
 while True:
     print("\n-----LIBRARY MANAGEMENT SYSTEM-----")
     print("1. Add Book")
